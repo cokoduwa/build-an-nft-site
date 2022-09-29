@@ -1,0 +1,115 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #2b283a;
+}
+
+/* typography */
+
+body, h1, h3 {
+    margin: 0;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+   margin-top: 0;     
+}
+
+h3 {
+    color: #d0aaff;
+    font-size: 20px;
+}
+
+p {
+    line-height: 23px;
+}
+
+/* links */
+
+.first-link {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    color: #ef5839;
+    padding: 0;
+}
+
+.first-link:hover, .first-link:active {
+    color: #d4b44c;
+    background-color: white;
+}
+ 
+.button {
+    padding: 10px 19px;
+    border-radius: 4.6px;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+.button:hover, .button:active {
+    background-color: #f3e885;
+    color: #2b283a;
+}
+
+.buy {
+    background-color: #5f29a3;
+    color: whitesmoke
+}
+
+.more-info, .contact {
+    background-color: #f0e0ff;
+    color: #5f29a3;
+}
+
+.about {
+    background-color: whitesmoke;
+    color: #5f29a3;  
+}
+
+
+/* layout */
+
+.container {
+    margin: 0 auto;
+    width: 620px;
+}
+
+.sneakers {
+    width: 100%;
+}
+
+.images-2-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-2-img {
+    width: 300px;
+    border-radius: 4.6px;
+    
+}
+
+footer {
+    text-align: center;
+    color: #5f29a3;
+    font-weight: bold;
+}
+
+body, footer {
+    font-size: 16px;
+}
+
+header, section, footer {
+    padding: 45px 0;
+}
+
+header, .section-2 {
+    background-color: #5f29a3;
+}
+
+h1, .section-2 {
+    color: whitesmoke;
+}
